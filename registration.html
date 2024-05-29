@@ -1,14 +1,32 @@
 <html>
   <head>
     <title>Registration</title>
+    <!-- syntax of css -->
+    <!-- selector {
+        property: value;
+    } -->
+    <style>
+        h1 {
+            color:rgb(243, 243, 243);
+            font-size: 40px;
+            background-color: blue;
+        }
+        select, input{
+            padding: 10px; 
+            margin: 5px; 
+            background-color: aliceblue; 
+            border: 1px solid #ccc; 
+            border-radius: 5px
+        }
+    </style>
   </head>
   <body>
-    <h1>Sign Up</h1>
+    <h1 >Sign Up</h1>
     <p>It’s quick and easy.</p>
     <!-- horizontal Line -->
     <hr />
     <form>
-      <input type="text" placeholder="Mobile number or email" />
+      <input type="text" placeholder="Mobile number or email" style="border-bottom: 5px solid red;" />
       <input type="password" placeholder="New password" />
       <br />
       <label for="birthday">Birthday</label>
@@ -48,9 +66,9 @@
       <div>
         <label for="gender">Gender</label> <br/>
         <label for="female">Female</label>
-        <input type="radio" name="gender" id="female" value="female"/>
+        <input type="radio" name="gender" id="female" value="female" />
         <label for="male">Male</label>
-        <input type="radio" name="gender" id="male" value="male"/>
+        <input type="radio" name="gender" id="male" value="male" checked/>
         <label for="custom">Custom</label>
         <input type="radio" name="gender" id="custom" value="custom"/>
       </div>
@@ -62,10 +80,7 @@
 
         </p>
         <p>
-            By clicking Sign Up, you agree to our 
-            <a href="#">Terms</a>
-            
-            , <a href="#">Privacy Policy</a> and <a href="#">Cookies Policy</a>. You may receive SMS Notifications from us and can opt out any time.
+            By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Privacy Policy</a> and <a href="#">Cookies Policy</a>. You may receive SMS Notifications from us and can opt out any time.
         </p>
       </div>
       <div>
