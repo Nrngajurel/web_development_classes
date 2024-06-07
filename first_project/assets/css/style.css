@@ -1,0 +1,60 @@
+/*
+        * universal selector
+        elem : element
+        .class_name : class ma apply
+        #id : id
+
+      */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    background-color: rgb(34, 96, 191);
+}
+
+footer {
+    background-color: #f6f9fc;
+}
+
+header ul {
+    list-style: none;
+}
+
+nav a {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.parent {
+    padding: 10px;
+    background: red;
+}
+
+.child {
+    padding: 40px;
+    background: blue;
+}
+
+.grand-child {
+    padding: 40px;
+    background: green;
+}
+
+.parent>div {
+    border-radius: 10px;
+}
