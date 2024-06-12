@@ -1,14 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif, serif;
+}
 .imp_notes {
+    margin-top: 10px;
     color: rgb(34, 28, 28);
     border: 1px solid black;
     padding: 10px;
     border-radius: 10px;
     text-align: justify;
     text-decoration: none;
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 12px;
+    font-family: "Cedarville Cursive", sans-serif, serif;
 }
 .thulo-text{
     font-size: 18px;
