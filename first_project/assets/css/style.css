@@ -1,60 +1,55 @@
-/*
-        * universal selector
-        elem : element
-        .class_name : class ma apply
-        #id : id
-
-      */
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-img {
-    max-width: 100%;
-}
-
-.container {
-    width: 1000px;
+.container{
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
-
-nav {
-    background-color: rgb(34, 96, 191);
+img{
+    max-width: 100%;
+}
+.header-top{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-wrapper > .logo{
+    width: 250px;
+}
+.top-ads-wrapper > .ads{
+    width: 520px;
+    border-radius: 5px;
 }
 
-footer {
-    background-color: #f6f9fc;
-}
-
-header ul {
-    list-style: none;
-}
-
-nav a {
+#top-navbar{
+    background-color: #00a9c7;
     color: white;
 }
-
-a {
+#top-navbar ul {
+    list-style: none;
+    display: flex;
+    padding: 3px 0;
+}
+#top-navbar ul li{
+    margin: auto;
+}
+#top-navbar a{
+    display: inline-block;
+    color: white;
     text-decoration: none;
+    padding: 5px 5px;
 }
 
-.parent {
-    padding: 10px;
-    background: red;
+#top-navbar a:hover{
+    background-color: #006172;
 }
-
-.child {
-    padding: 40px;
-    background: blue;
-}
-
-.grand-child {
-    padding: 40px;
-    background: green;
-}
-
-.parent>div {
-    border-radius: 10px;
+#top-navbar a.btn{
+    background-color: white;
+        color: black;
+        padding: 8px 12px;
+        border-radius: 4px;
 }
