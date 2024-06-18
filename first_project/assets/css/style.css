@@ -43,6 +43,9 @@ img{
     text-decoration: none;
     padding: 5px 5px;
 }
+p{
+    line-height: 30px;
+}
 
 #top-navbar a:hover{
     background-color: #006172;
@@ -52,4 +55,74 @@ img{
         color: black;
         padding: 8px 12px;
         border-radius: 4px;
+}
+.trending_news{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.trending_news ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.trending_news .item{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.trending_news .rounded_image{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+#searchBox{
+    padding: 8px 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #02d9ff52;
+}
+.full-width-ads-wrapper{
+    margin-top: 10px;
+}
+.full-width-ads-wrapper img{
+    border-radius: 5px;
+}
+
+.news_card{
+    margin-top: 10px;
+    text-align: center;
+}
+.news_info{
+    display: flex;
+    justify-content: center;
+}
+
+.news_info div{
+    padding: 10px;
+}
+
+footer{
+    background-color: #00cef30c;
+    margin-top: 20px;
+    padding: 20px 0;
+}
+footer ul{
+    list-style: none;
+}
+footer a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 0;
+    color: #616161;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
 }
