@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #005ea7;
+  text-align: center;
+}
+.card {
+  background: white;
+  margin: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.card .avatar-wrapper {
+  background-image: url("/assets/images/background.jpeg");
+}
+
+.card .avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  margin: 40px;
+}
+.card .name{
+    font-size: 30px;
+    margin: 10px 0;
+}
+.card .vote-botton{
+    padding: 15px 40px;
+    border: none;
+    background-color: #ff7300;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid #d56000;
+}
+
+.card .already_participated_msg{
+    margin-top: 10px;
+    color: red;
+    padding: 8px;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+}
+.card .vote_count{
+    margin: 10px 0;
+    color: #005ea7;
+    font-weight: bold;
+    
+}
+/* progress bar */
+.progressbar-wrapper{
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.progress_bar{
+    background-color: #ccc;
+    height: 8px;
+    width: 100%;
+    border-radius: 10px;
+}
+.progress{
+    background-color: #d56000;
+    height: 100%;
+    width: 80%;
+    border-radius: 10px;
+}
